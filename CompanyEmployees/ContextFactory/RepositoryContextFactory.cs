@@ -4,7 +4,7 @@ using Repository;
 
 namespace CompanyEmployees.ContextFactory
 {
-    public class RepositoryContextFactor : IDesignTimeDbContextFactory<RepositoryContext>
+    public class RepositoryContextFactory : IDesignTimeDbContextFactory<RepositoryContext>
     {
         public RepositoryContext CreateDbContext(string[] args)
         {
